@@ -8,8 +8,8 @@ export class WelcomeScene extends Scene {
   }
 
   preload(): void {
-    this.load.image('space', '../src/assets/space.jpg');
-    this.load.image('ship', '../src/assets/ship.png');
+    this.load.image('space', 'assets/space.jpg');
+    this.load.image('ship', 'assets/ship.png');
 
     this.load.bitmapFont(
       'atari',
