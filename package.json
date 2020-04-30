@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "start": "webpack --watch & live-server --port=8085"
+    "start": "webpack --watch & live-server --port=8085 --open=dist --entry-file=index.html"
   },
   "author": "Konstantin O.",
   "license": "MIT",
@@ -16,6 +16,7 @@
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.10.1",
     "eslint-plugin-prettier": "^3.1.2",
+    "html-webpack-plugin": "^4.2.1",
     "live-server": "^1.2.1",
     "phaser": "^3.22.0",
     "prettier": "^2.0.2",

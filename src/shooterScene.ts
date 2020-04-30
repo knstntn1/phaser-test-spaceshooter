@@ -27,9 +27,9 @@ export class ShooterScene extends Scene {
   }
 
   preload(): void {
-    this.load.image('asteroid', 'src/assets/asteroid.png');
-    this.load.image('bullet', 'src/assets/bullet.png');
-    this.load.image('ufo', 'src/assets/ufo.png');
+    this.load.image('asteroid', '../src/assets/asteroid.png');
+    this.load.image('bullet', '../src/assets/bullet.png');
+    this.load.image('ufo', '../src/assets/ufo.png');
   }
 
   create(): void {
