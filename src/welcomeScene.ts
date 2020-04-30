@@ -13,8 +13,8 @@ export class WelcomeScene extends Scene {
 
     this.load.bitmapFont(
       'atari',
-      '../src/assets/fonts/atari-smooth.png',
-      '../src/assets/fonts/atari-smooth.xml'
+      'assets/fonts/atari-smooth.png',
+      'assets/fonts/atari-smooth.xml'
     );
   }
 
